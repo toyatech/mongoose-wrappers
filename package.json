@@ -1,9 +1,15 @@
 {
   "name": "mongoose-wrappers",
-  "description": "Wrappers around the Mongoose library that aims to simplify the way Schemas and Models are defined.",
-  "author": "noisypebble <noisypebble@toyatech.net>",
-  "main": "index.js",
   "version": "0.0.0",
+  "description": "Wrappers around the Mongoose library that aims to simplify the way Schemas and Models are defined.",
+  "main": "index.js",
+  "dependencies": {
+    "mongoose": "~3.8.23"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/toyatech/mongoose-wrappers.git"
@@ -12,7 +18,11 @@
     "mongoose",
     "wrapper",
     "schema",
-    "model
+    "model"
   ],
-  "license": "MIT"
+  "author": "noisypebble <noisypebble@toyatech.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toyatech/mongoose-wrappers/issues"
+  }
 }
